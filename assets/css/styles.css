@@ -7,7 +7,7 @@ html body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    overflow: hidden;
+  display: no-repeat;
 }
 
 
@@ -20,16 +20,44 @@ html body {
 }
 
 
+/* unvisited link */
+a:link {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: darkgrey;
+}
+
+/* mouse over link */
+a:hover {
+    color: teal;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
 /* Style for footer */
 
 .footer {
     width: 100%;
     position: fixed;
-    background-color: #6666;
-    color: #ffff;
     text-align: center;
-    width: 100%;
     bottom: 0;
+    left: 0;
+
+
 
 
 }
+
+
+/* 
+
+
+
+*/
