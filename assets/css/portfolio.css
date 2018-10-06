@@ -1,19 +1,14 @@
 html body {
     width: 100%;
     height: 100%;
-    vertical-align: auto;
     background-image: url('https://picsum.photos/1300/800?image=971');
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    overflow: hidden;
+    background-size: cover;
 }
 
 
 /* Title */
 .navbar-brand {
-    background-color: #4aaa;
+    background-color: #008080;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
@@ -42,181 +37,25 @@ a:active {
 
 
 
-
-
-
-.box-set {
-    background: #fffff;
-    width: 400px;
-    height: 100px;
-    position: relative;
-}
-
-.box {
-    background: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 14px;
-    color: #ffff;
-    height: 25px;
-    width: 140px;
-    margin-left: 4px;
-    position: absolute;
-
-}
-
-/* Style for Hangman */
-
-.box-1 {
-
-    top: -150px;
-    left: -5px;
-    z-index: 5px;
-
-}
-
-/* Style for RPG Game */
-
-.box-2 {
-
-    top: -150px;
-    right: 68px;
-
-    z-index: 4px;
-}
-
-
-/* Style for Trivia Game */
-
-.box-3 {
-
-    top: -30px;
-    left: -5px;
-    z-index: 3px;
-
-}
-
-/* Style for Rutgers Info Widget */
-
-.box-4 {
-
-
-    top: -40px;
-    right: 68px;
-    z-index: 2px;
-
-}
-
-/* Style for Rock Paper Scissors */
-
-.box-5 {
-
-    top: 80px;
-    left: -4.5px;
-    z-index: 1px;
-
-}
-
-/* Style two columns that floats next to each other */
-
-.column {
-    clear: both;
-    float: left;
-    width: 20%;
-    display: inline-block;
-}
-
-/* Clear floats after image containers */
-.row::after {
-    clear: both;
-    float: left;
-    width: 20%;
-    display: block;
-
-}
-
-/* Styling for image lables */
-
-
-.box-set {
-    clear:both;
-    background: #fff;
-    width: 400px;
-    height: 100px;
-    position: relative;
-}
-
-.box {
-    clear: both;
-    background: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 14px;
-    color: #fff;
-    height: 25px;
-    width: 140px;
-    margin-left: 4px;
-    position: absolute;
-
-}
-
-/* Style for Hangman */
-
-.box-1 {
-
-    top: -275px;
-    left: -5px;
-    z-index: 5;
-
-}
-
-/* Style for RPG Game */
-
-.box-2 {
-
-    top: -275px;
-    right: 68px;
-    z-index: 4;
-}
-
-
-/* Style for Trivia Game */
-
-.box-3 {
-
-    top: -150px;
-    left: -5px;
-    z-index: 3;
-
-}
-
-/* Style for Rutgers Info Widget */
-
-.box-4 {
-    top: -160px;
-    right: 68px;
-    z-index: 2;
-
-}
-
-/* Style for Rock Paper Scissors */
-
-.box-5 {
-
-    top: -40px;
-    left: -4.5px;
-    z-index: 1;
-
-}
-
-
-
 /* Style for footer */
 
-.footer {
+.hr2 {
     max-width: 100%;
+    border-top: 3px solid #4aaaa5;
+    border-bottom: 3px solid#4aaaa5;
+    margin-bottom: 0px;
+    left: 0;
+
+}
+
+.footer {
+    width: 100%;
+    margin-top: 10px;
     position: fixed;
     text-align: center;
     bottom: 0;
     left: 0;
+
+
+
 }
